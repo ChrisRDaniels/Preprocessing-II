@@ -10,14 +10,14 @@ div .btn {
   font-size: 2rem;
   border-radius: 10px;
 }
-@media (max-width: 515px) {
+@media (max-width: 500px) {
   div .btn {
     width: 90%;
     height: 50px;
     font-size: 2.5rem;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   div .btn {
     background: #17A2B8;
     color: white;
@@ -201,72 +201,22 @@ img .head-img {
   display: block;
   text-align: center;
 }
-div .btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #17A2B8;
-  color: white;
-  cursor: pointer;
-  width: 200px;
-  height: 45px;
-  font-size: 2rem;
-  border-radius: 10px;
-}
-@media (max-width: 515px) {
-  div .btn {
-    width: 90%;
-    height: 50px;
-    font-size: 2.5rem;
-  }
-}
-@media (max-width: 400px) {
-  div .btn {
-    background: #17A2B8;
-    color: white;
-  }
-}
-header {
-  margin: 20px 0;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-between;
-}
-@media (max-width: 515px) {
-  header {
+@media (max-width: 500px) {
+  .content-section {
+    display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
   }
-}
-header h1 {
-  font-size: 4rem;
-}
-@media (max-width: 515px) {
-  header h1 {
-    margin-bottom: 20px;
-  }
-}
-header nav {
-  margin-left: 62px;
-}
-@media (max-width: 515px) {
-  header nav {
-    margin-left: 0;
-  }
-}
-header nav a {
-  margin-left: 20px;
-  font-size: 1.8rem;
-}
-header nav .first-anchor {
-  margin-left: 0;
 }
 nav {
   margin-left: 62px;
 }
-@media (max-width: 515px) {
+@media (max-width: 500px) {
   nav {
     margin-left: 0;
+    display: flex;
+    flex-direction: column;
   }
 }
 nav a {
@@ -292,6 +242,13 @@ nav a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
@@ -302,6 +259,13 @@ nav a {
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .content-section .img-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .home .inverse-content {
   padding-bottom: 30px;
@@ -338,8 +302,9 @@ header {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 515px) {
+@media (max-width: 500px) {
   header {
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
@@ -347,7 +312,7 @@ header {
 header h1 {
   font-size: 4rem;
 }
-@media (max-width: 515px) {
+@media (max-width: 500px) {
   header h1 {
     margin-bottom: 20px;
   }
@@ -355,7 +320,7 @@ header h1 {
 header nav {
   margin-left: 62px;
 }
-@media (max-width: 515px) {
+@media (max-width: 500px) {
   header nav {
     margin-left: 0;
   }
