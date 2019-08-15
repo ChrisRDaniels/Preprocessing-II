@@ -50,31 +50,17 @@ img {
   margin: 0 auto;
 }
 
-.head-img {
+img .head-img {
   display: block;
   text-align: center;
+  
 }
 
-div .btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #007480;
-  color: white;
-  
-  cursor: pointer;
-  width: 200px;
-  height: 45px;
-  font-size: 2rem;
-  border-radius: 10px;
-   
-   @media( max-width: 515px ) {
-     width: 90%;
-     height: 50px;
-     font-size: 2.5rem;
-   }// this closes the media query 
-   @media( max-width: 400px ) {
-     background: green;
-     color: white;
-   }// this closes the 400px media query
- }// this closes the button
+.content-section {
+  @media @mobile {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }//this closes the media query 
+}
