@@ -176,6 +176,31 @@ img {
   display: block;
   text-align: center;
 }
+div .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007480;
+  color: white;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+@media (max-width: 515px) {
+  div .btn {
+    width: 90%;
+    height: 50px;
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 400px) {
+  div .btn {
+    background: green;
+    color: white;
+  }
+}
 header {
   margin: 20px 0;
   padding: 20px 0;
